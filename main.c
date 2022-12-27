@@ -25,9 +25,6 @@ int main(int argc, char **argv) {
 	int *b;
 	a = calloc((argc + 1) * sizeof(int), 1);
 	b = calloc((argc + 1) * sizeof(int), 1);
-	b[0] = 7;
-	b[1] = 8;
-	b[2] = 9;
 	printf("STACKS LOADED IN\n");
 	printf("a b\n");
 	printf("----\n");
