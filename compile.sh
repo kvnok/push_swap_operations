@@ -1,0 +1,1 @@
+cc main.c operations.c -o test
